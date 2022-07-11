@@ -1,0 +1,24 @@
+.footer {
+    background-color: black;
+    width: 100%;
+    max-height: 9vh;
+    min-height: 8vh;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+        color: white;
+        font-size: 20px;
+        margin: 0px 10px 2px 10px;
+
+        &:hover {
+            color: #E97E3B;
+        }
+    }
+
+
+}

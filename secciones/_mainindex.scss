@@ -1,0 +1,79 @@
+.mainindex {
+    display: flex;
+    flex-direction: column;
+    background-image: url(file:///C:/Users/milis/Downloads/WebSite2372550/images/dd4241750a8bbf0d2f35f15bb55ddb3c.jpeg);
+    background-position: 50%;
+
+    &__h2 {
+        color: white;
+        font-weight: 700;
+        text-transform: capitalize;
+        line-height: 1.2;
+        font-size: 3rem;
+        letter-spacing: 1px;
+        font-family: Merriweather, serif;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    &__p {
+        color: white;
+        font-size: 1.2rem;
+        font-style: italic;
+        width: 800px;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+
+    &__div2 {
+        background-color: rgba(247, 159, 77, 0.662);
+        margin: 1rem 1rem 1rem 20px;
+        width: 15rem;
+        height: 23rem;
+
+        img {
+            width: 164px;
+            height: 164px;
+            background-position: 50% 50%;
+            margin-top: 30px;
+            margin-left: 35px;
+            border-radius: 50%;
+        }
+
+        h4 {
+            text-align: center;
+            color: black;
+            font-weight: 700;
+            text-transform: capitalize;
+            line-height: 1.2;
+            font-size: 1.5rem;
+            margin: 3rem 1rem 5rem 1rem;
+            font-family: Merriweather, serif;
+        }
+    }
+
+    .boton {
+        background-image: none;
+        border-style: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 30px auto 60px;
+        font-family: Merriweather, serif;
+        background-color: rgba(247, 159, 77, 0.662);
+        font-size: 1.5rem;
+
+        &:hover {
+            color: white;
+        }
+
+
+    }
+}

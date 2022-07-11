@@ -1,0 +1,13 @@
+%estiloParrafo {
+    line-height: 1.6em;
+    font-size: 18px;
+    position: left;
+    padding-right: 5rem;
+}
+
+@mixin fontStyle ($primerColor,$primerTexto) {
+    color: $primerColor;
+    font-family: $primerTexto;
+    
+}
+

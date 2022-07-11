@@ -1,0 +1,30 @@
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        margin-left: 1rem;
+    }
+
+    &__ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            margin: 2rem 1rem 1rem 2rem;
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 20px;
+
+                &:hover {
+                    color: #E97E3B;
+                }
+            }
+        }
+    }
+}

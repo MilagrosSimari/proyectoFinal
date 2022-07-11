@@ -1,0 +1,58 @@
+// CONTACTO
+
+.main {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-image: url(file:///C:/Users/milis/Downloads/WebSite2372550/images/dd4241750a8bbf0d2f35f15bb55ddb3c.jpeg);
+    background-position: 50%;
+
+    &__form {
+        width: 85vw;
+        max-width: 450px;
+        margin: auto;
+        background: rgba(247, 159, 77, 0.662);
+        padding: 10px 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 7px;
+    }
+
+    &__h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #212121;
+        text-align: center;
+        margin: 0;
+        font-size: 25px;
+        font-family: "Scope One", serif;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        font-size: 17px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    textarea {
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+        width: 50rem;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .boton {
+        background-color: rgb(27, 27, 27);
+        color: #FFFFFF;
+
+        &:hover {
+            color: #E97E3B;
+        }
+    }
+}

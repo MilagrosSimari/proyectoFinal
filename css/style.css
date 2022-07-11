@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.mainservicio__section1 p, .mainservicio__section2 {
+  line-height: 1.6em;
+  font-size: 18px;
+  position: left;
+  padding-right: 5rem; }
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__logo {
+    margin-left: 1rem; }
+  .header__ul {
+    display: flex;
+    list-style: none; }
+    .header__ul li {
+      margin: 2rem 1rem 1rem 2rem; }
+      .header__ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px; }
+        .header__ul li a:hover {
+          color: #E97E3B; }
+
+.footer {
+  background-color: black;
+  width: 100%;
+  max-height: 9vh;
+  min-height: 8vh;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer i {
+    color: white;
+    font-size: 20px;
+    margin: 0px 10px 2px 10px; }
+    .footer i:hover {
+      color: #E97E3B; }
+
+.main {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-image: url(file:///C:/Users/milis/Downloads/WebSite2372550/images/dd4241750a8bbf0d2f35f15bb55ddb3c.jpeg);
+  background-position: 50%; }
+  .main__form {
+    width: 85vw;
+    max-width: 450px;
+    margin: auto;
+    background: rgba(247, 159, 77, 0.662);
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px; }
+  .main__h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    font-family: "Scope One", serif;
+    margin-bottom: 20px; }
+  .main input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px; }
+  .main textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    width: 50rem;
+    border: none;
+    border-radius: 10px; }
+  .main .boton {
+    background-color: #1b1b1b;
+    color: #FFFFFF; }
+    .main .boton:hover {
+      color: #E97E3B; }
+
+.mainservicio {
+  padding: 2rem;
+  margin: 1.5rem; }
+  .mainservicio__section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-width: 3px;
+    border-bottom-color: #fa9d2e; }
+    .mainservicio__section1 img {
+      width: 300px;
+      margin-right: 8rem; }
+  .mainservicio__div {
+    margin-top: 1rem; }
+    .mainservicio__div h1 {
+      padding-bottom: 0.5rem;
+      color: #E97E3B;
+      font-family: "Arvo"; }
+    .mainservicio__div h5 {
+      color: #737373;
+      text-decoration-line: underline; }
+  .mainservicio__section2 {
+    text-align: center;
+    background: #ffae00;
+    background: linear-gradient(0deg, rgba(255, 174, 0, 0.830036) 0%, white 100%); }
+    .mainservicio__section2 h6 {
+      text-decoration-line: underline; }
+  .mainservicio .imagen {
+    max-width: 70%;
+    height: auto;
+    margin-left: 9rem;
+    margin-top: 3rem; }
+  .mainservicio .h5 {
+    color: #737373;
+    text-decoration-line: underline;
+    margin-top: 5rem; }
+
+.mainindex {
+  display: flex;
+  flex-direction: column;
+  background-image: url(file:///C:/Users/milis/Downloads/WebSite2372550/images/dd4241750a8bbf0d2f35f15bb55ddb3c.jpeg);
+  background-position: 50%; }
+  .mainindex__h2 {
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-family: Merriweather, serif;
+    text-align: center;
+    margin-top: 1rem; }
+  .mainindex__p {
+    color: white;
+    font-size: 1.2rem;
+    font-style: italic;
+    width: 800px;
+    margin: 20px auto 0;
+    text-align: center; }
+  .mainindex__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 5rem;
+    margin-top: 2rem; }
+  .mainindex__div2 {
+    background-color: rgba(247, 159, 77, 0.662);
+    margin: 1rem 1rem 1rem 20px;
+    width: 15rem;
+    height: 23rem; }
+    .mainindex__div2 img {
+      width: 164px;
+      height: 164px;
+      background-position: 50% 50%;
+      margin-top: 30px;
+      margin-left: 35px;
+      border-radius: 50%; }
+    .mainindex__div2 h4 {
+      text-align: center;
+      color: black;
+      font-weight: 700;
+      text-transform: capitalize;
+      line-height: 1.2;
+      font-size: 1.5rem;
+      margin: 3rem 1rem 5rem 1rem;
+      font-family: Merriweather, serif; }
+  .mainindex .boton {
+    background-image: none;
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px auto 60px;
+    font-family: Merriweather, serif;
+    background-color: rgba(247, 159, 77, 0.662);
+    font-size: 1.5rem; }
+    .mainindex .boton:hover {
+      color: white; }

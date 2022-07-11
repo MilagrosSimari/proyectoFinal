@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import '../variables/extend';
+@import '../variables/colores';
+@import '../variables/tipografia';
+
+@import'../secciones/header';
+@import'../secciones/footer';
+@import'../secciones/maincontacto';
+@import'../secciones/mainservicio';
+@import'../secciones/mainindex';
