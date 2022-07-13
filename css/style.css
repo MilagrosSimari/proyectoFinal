@@ -187,3 +187,59 @@
     font-size: 1.5rem; }
     .mainindex .boton:hover {
       color: white; }
+
+.mainhistoria__div {
+  margin-top: 2rem;
+  text-align: center; }
+  .mainhistoria__div h1 {
+    color: #E97E3B;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-family: "Scope One", serif;
+    font-size: 30px;
+    margin: 2rem; }
+  .mainhistoria__div p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-style: normal;
+    font-size: 15px;
+    color: #000; }
+  .mainhistoria__div b {
+    font-size: 25px;
+    font-family: "Scope One", serif; }
+
+.mainhistoria__section {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  display: grid; }
+  .mainhistoria__section img {
+    width: 100%;
+    height: auto; }
+
+.mainhistoria__h1 {
+  font-family: "Scope One", serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-size: 35px;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  margin-bottom: 0; }
+
+.mainhistoria__section1 {
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  display: grid;
+  margin-bottom: 5rem;
+  grid-gap: 2px;
+  padding: 15px 45px;
+  overflow: hidden;
+  justify-items: center;
+  align-items: center;
+  background-color: rgba(247, 159, 77, 0.662);
+  border-radius: 15px; }
