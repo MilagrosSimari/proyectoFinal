@@ -1,8 +1,10 @@
 .mainindex {
     display: flex;
     flex-direction: column;
-    background-image: url(file:///C:/Users/milis/Downloads/WebSite2372550/images/dd4241750a8bbf0d2f35f15bb55ddb3c.jpeg);
+    background-image: url(https://scontent.faep14-3.fna.fbcdn.net/v/t1.6435-9/67480162_2440353752688543_5663699873459863552_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=111&ccb=1-7&_nc_sid=2d5d41&_nc_ohc=sAVlJuBX6YkAX9t7qJC&_nc_ht=scontent.faep14-3.fna&oh=00_AT8-gladKqvSJQ2ftpp1W3bs0dlAYgP7LWnc4ITzPdWtZA&oe=62F68408);
     background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100rem;
 
     &__h2 {
         color: white;
@@ -28,7 +30,7 @@
     &__section {
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: center;
         margin-left: 5rem;
         margin-top: 2rem;
     }
@@ -61,6 +63,8 @@
     }
 
     .boton {
+        display: flex;
+        justify-content: center;
         background-image: none;
         border-style: none;
         font-weight: 700;

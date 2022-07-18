@@ -35,14 +35,19 @@
     }
 
     &__section2 {
-
         text-align: center;
         background: rgb(255, 174, 0);
-        background: linear-gradient(0deg, rgba(255, 174, 0, 0.8300362381280637) 0%, rgba(255, 255, 255, 1) 100%);
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 174, 0, 0.8300362381280637) 100%);
         @extend%estiloParrafo;
 
         h6 {
             text-decoration-line: underline;
+            margin-left: 4rem;
+        }
+
+        p {
+            margin-left: 4rem;
         }
     }
 
@@ -54,8 +59,11 @@
     }
 
     .h5 {
-        color: #737373;
+        color: black;
         text-decoration-line: underline;
         margin-top: 5rem;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Arvo', serif;
     }
 }
